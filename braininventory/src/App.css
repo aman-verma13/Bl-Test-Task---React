@@ -1,0 +1,38 @@
+:root {
+  --backcolor: #f9fdff
+}
+
+.containerparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 5rem;
+}
+
+.mainContainer {
+  background-color: var(--backcolor);
+  border-radius: 2rem;
+  width: 85%;
+}
+
+.chartbox {
+  height: 20vh;
+  background-color: white;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: '20vh', backgroundColor: 'red', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' */
+}
+
+.casesin {
+  font-weight: 600;
+  color: grey;
+  margin-left: 1vh;
+  font-size: 12px;
+}
+
+.counttyName {
+  font-weight: 600;
+  font-size: 12px;
+}
